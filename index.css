@@ -101,7 +101,6 @@ body {
 .list-group-item:last-child {
     border-radius: 0px;
 }
-
 #section_Programa .list-group-item:first-child {
     font-family: 'VT323';
     border-radius: 0px;
@@ -147,12 +146,16 @@ body {
 	margin-bottom: 60px;
 }
 .sobre p{
-	font-size: 18pt;
+	font-size: 16pt;
 	margin-left: 5%;
 	margin-right: 5%;
 	font-weight: 100;
 
 }
+#section_Contactos .container .list-group .row p {
+	padding-top: 10px;
+}
+
 .btn_sobre{
 	margin-top: 50px;
 	margin-left: 5%;
