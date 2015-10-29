@@ -150,7 +150,8 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	font-weight: 100;
-
+	text-align: justify;
+	text-justify: inter-word;
 }
 #section_Contactos .container .list-group .row p {
 	padding-top: 10px;
