@@ -59,7 +59,7 @@ body {
 
 .titulo{
 	color: #8dc63f;
-	font-family: PixelFont;
+	font-family: 'VT323';
 	text-align: center;
 	font-size: 28pt;
 	margin-bottom: 40px;
@@ -67,7 +67,7 @@ body {
 }
 .titulo2{
 	color: #232323;
-	font-family: PixelFont;
+	font-family: 'VT323';
 	text-align: center;
 	font-size: 28pt;
 	margin-bottom: 40px;
@@ -90,7 +90,7 @@ body {
 
 }
 #section_Programa .list-group-item:first-child {
-    font-family: PixelNumber;
+    font-family: 'VT323';
     border-radius: 0px;
     border-right: 0px;
     font-size: 20pt;
@@ -106,7 +106,7 @@ body {
     padding-left: 20px;
 }
 .titulo_oradores{
-	font-family: PixelFont;
+	font-family:'VT323';
 	font-size: 20px;
 	border-bottom: 2px dashed #232323;
 	color: #232323;
