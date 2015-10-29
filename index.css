@@ -1,19 +1,33 @@
-body {
-	position: relative;
+
+@font-face {
+    font-family: PixelFont;
+    src: url(Munro.ttf);
 }
 
+@font-face {
+    font-family: PixelNumber;
+    src: url(MunroNarrow.ttf);
+}
+body {
+	position: relative;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+*:focus{
+	outline: none;
+	text-decoration: none;
+}
 .section {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	min-height: 100vh;
 }
-
-#section_UnixDEI, #section_Oradores {
-	background-color: #fff;
+#section_UnixDEI,#section_Programa, #section_Contactos {
+	background-color: #232323;
 }
 
-#section_Programa, #section_Contactos {
-	background-color: #eee;
+#section_Oradores,#section_Sobre {
+	background-color: #fff;
 }
 
 .time {
@@ -27,3 +41,91 @@ body {
 #events > .col-xs-7{
 	text-align: center;
 }
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.logo{
+	width:48%;
+	margin-top: 20vh;
+}
+.seta{
+	width:7%;
+	position: absolute;
+	top: 78vh;
+}
+
+.titulo{
+	color: #8dc63f;
+	font-family: PixelFont;
+	text-align: center;
+	font-size: 28pt;
+	margin-bottom: 40px;
+
+}
+.titulo2{
+	color: #232323;
+	font-family: PixelFont;
+	text-align: center;
+	font-size: 28pt;
+	margin-bottom: 40px;
+
+}
+
+
+
+
+.list-group-item{
+    background-color: transparent;
+    border-radius: 0px;
+    border-right: 2px solid #8dc63f;
+    border-left: 2px solid #8dc63f;
+    margin-bottom: 10px;
+    color: #8dc63f;
+    font-size: 14pt;
+    border-bottom: 0px;
+    border-top: 0px;
+
+}
+#section_Programa .list-group-item:first-child {
+    font-family: PixelNumber;
+    border-radius: 0px;
+    border-right: 0px;
+    font-size: 20pt;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+#section_Programa .list-group-item:last-child {
+    font-family: sans-serif;
+    border-radius: 0px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+.titulo_oradores{
+	font-family: PixelFont;
+	font-size: 20px;
+	border-bottom: 2px dashed #232323;
+	color: #232323;
+}
+
+.thumbnail{
+	border:0px;
+}
+.icons{
+	color: #232323;
+
+}
+.icons:hover{
+	color: #8dc63f;
+	border: 0px;
+
+}
+.redes{
+	margin-top: 20px;
+}
+
+
