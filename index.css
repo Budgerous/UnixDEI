@@ -75,8 +75,9 @@ body {
 
 }
 
-
-
+#logoNEI {
+	max-width: 201px;
+}
 
 .list-group-item{
     background-color: transparent;
@@ -100,6 +101,7 @@ body {
 .list-group-item:last-child {
     border-radius: 0px;
 }
+
 #section_Programa .list-group-item:first-child {
     font-family: 'VT323';
     border-radius: 0px;
@@ -122,7 +124,6 @@ body {
 	border-bottom: 2px dashed #232323;
 	color: #232323;
 }
-
 .thumbnail{
 	border:0px;
 }
