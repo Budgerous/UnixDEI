@@ -55,6 +55,7 @@ body {
 	width:7%;
 	position: absolute;
 	top: 78vh;
+	left: 46%;
 }
 
 .titulo{
@@ -138,7 +139,7 @@ body {
 	margin-top: 20px;
 }
 .logo_nav{
-	height: 22px;
+	height: 24px;
 }
 .sobre h1{
 	margin-bottom: 60px;
