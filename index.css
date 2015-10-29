@@ -144,9 +144,10 @@ body {
 	margin-bottom: 60px;
 }
 .sobre p{
-	font-size: 16pt;
+	font-size: 18pt;
 	margin-left: 5%;
 	margin-right: 5%;
+	font-weight: 100;
 
 }
 .btn_sobre{
@@ -163,4 +164,24 @@ body {
 }
 .btn_sobre a:hover{
 	color: gray;
+}
+@media(max-width: 700px){
+	.sobre p{
+	font-size: 14pt;
+
+	}	
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family:'VT323';
+	margin:4px;
+	font-size: 12pt;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	font-family:'VT323';
+	margin:4px;
+	background-color: #8dc63f;
+	color: #232323;
+
+
 }
