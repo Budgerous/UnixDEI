@@ -49,7 +49,7 @@ $('#event4').popover({
     viewport: "#events"
 });
 $('#event5').popover({
-    content: "Ementa a definir",
+    content: "Oops! Something went wrong...",
     placement: "right",
     trigger: "hover",
     viewport: "#events"
